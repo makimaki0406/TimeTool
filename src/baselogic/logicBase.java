@@ -15,7 +15,7 @@ public class logicBase {
 	 * コンストラクタ
 	 */
 	public logicBase() {
-		//初期処理の
+		//初期処理の実行
 		init();
 	}
 
