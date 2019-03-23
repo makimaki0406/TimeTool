@@ -2,6 +2,7 @@
     <wb-module deploy-name="timeTool">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/log"/>
         <property name="context-root" value="timeTool"/>
         <property name="java-output-path" value="/timeTool/build/classes"/>
     </wb-module>
