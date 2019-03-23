@@ -1,5 +1,31 @@
 package baselogic;
 
+import org.apache.log4j.PropertyConfigurator;
+
+/**
+ *
+ * @author yuki shishikura
+ *	処理設定クラス
+ *
+ */
+
 public class logicBase {
-String aaa="";
+
+	/**
+	 * コンストラクタ
+	 */
+	public logicBase() {
+		//初期処理の
+		init();
+	}
+
+	/**
+	 * 初期処理
+	 */
+	public void init() {
+		//log設定読み込み処理
+		PropertyConfigurator.configure("conf/log4j.properties");
+
+	}
+
 }
